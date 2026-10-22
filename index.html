@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imtihon</title>
+    <style>
+        body {
+            background-color: gray;
+
+        }
+
+        .container {
+            width: 1300px;
+            height: 3910px;
+            margin: 0 auto;
+            background-color: rgb(255, 255, 255);
+            margin-top: 500px;
+        }
+
+        header {
+            width: 1300px;
+            height: 56px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+
+
+        }
+
+        .pixer {
+            width: 80px;
+            height: 56px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 20px;
+            padding-top: 15px;
+        }
+
+        .nav {
+            width: 650px;
+            height: 56px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 250px;
+            text-align: center;
+            padding-top: 10px;
+            word-spacing: 30px;
+            font-size: 18px;
+
+        }
+
+        .tel {
+            width: 160px;
+            height: 40px;
+            background-color: #00BAFC;
+            margin-right: 0px;
+            padding-top: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .youtobe {
+            width: 1300px;
+            height: 418px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .matn {
+            width: 470px;
+            height: 224px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 150px;
+            padding-top: 20px;
+            font-size: 18px;
+            margin-top: 0px;
+        }
+
+        .xizmatlar {
+            width: 232px;
+            height: 40px;
+            background: #00BAFC;
+            padding-top: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+            text-align: center;
+            padding-bottom: 8px;
+            margin-top: 8px;
+            color: white;
+        }
+
+        .video {
+            position: relative;
+            width: 458px;
+            height: 258px;
+            margin-top: 20px;
+            margin-right: 100px;
+        }
+
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 150px;
+
+        }
+
+        .main {
+            width: 1300px;
+            height: 879px;
+
+
+        }
+
+        .main1 {
+            width: 1300px;
+            height: 151px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .main2 {
+            width: 1300px;
+            height: 576px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .main3 {
+            width: 1300px;
+            height: 151px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box1 {
+            width: 320px;
+            height: 260px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 8px 8px 0px #0000001A;
+        }
+
+        .box2 {
+            width: 320px;
+            height: 260px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 8px 8px 0px #0000001A;
+
+        }
+
+        .box3 {
+            width: 320px;
+            height: 260px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 8px 8px 0px #0000001A;
+
+        }
+
+        .box4 {
+            width: 350px;
+            height: 260px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 8px 8px 0px #0000001A;
+            margin-left: 100px;
+
+        }
+
+        .box5 {
+            width: 320px;
+            height: 260px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 8px 8px 0px #0000001A;
+            margin-right: 100px;
+        }
+
+
+        .buyurtmaberish {
+            width: 167px;
+            height: 40px;
+            background-color: #00BAFC;
+            padding-top: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+            text-align: center;
+            padding-bottom: 8px;
+            margin-top: 8px;
+            color: white;
+        }
+
+        .main4 {
+            width: 1300px;
+            height: 1675.8087158203125px;
+            background-color: rgb(255, 255, 255);
+            top: 1353px;
+            padding-top: 56px;
+            padding-bottom: 56px;
+            gap: 16px;
+            opacity: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            padding: 50px 0;
+        }
+
+        .m1 {
+            width: 1300px;
+            height: 151px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+        }
+
+        .m2 {
+
+            width: 1300px;
+            height: 1372.8087158203125px;
+            padding-top: 8px;
+            padding-right: 100px;
+            padding-bottom: 8px;
+            padding-left: 100px;
+        }
+
+        .tugma {
+            width: 167px;
+            height: 40px;
+            background-color: #00BAFC;
+            padding-top: 15px;
+            font-size: 20px;
+            border-radius: 5px;
+            text-align: center;
+            padding-bottom: 8px;
+            margin-top: -120px;
+            color: white;
+        }
+
+        footer {
+            width: 1300px;
+            height: 338px;
+            background-color: black;
+            margin-top: 2300px;
+
+        }
+
+        .fo1 {
+            width: 320px;
+            height: 162px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 18px;
+        }
+
+        .fo2 {
+            width: 183px;
+            height: 226px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 18px;
+            margin-top: 40px;
+        }
+
+        .fo3 {
+            width: 172px;
+            height: 180px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-size: 18px;
+        }
+
+        .footer {
+            width: 1100px;
+            height: 338px;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="pixer"> <img src="/imtihon/pixer-logo.svg" alt=""></div>
+            <div class="nav">
+                <p>Bosh sahifa Xizmatlar Portfolio Jamoa Blog Kontaktlar</p>
+            </div>
+            <div class="tel">+998 90 921 37 11</div>
+        </header>
+        <div class="youtobe">
+            <div class="matn">
+                <h2>Biznesingizni keyingi bosqichga
+                    olib chiqing</h2>
+                <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                    sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+                <div class="xizmatlar">Xizmatlar bilan tanishish</div>
+            </div>
+            <div class="video">
+                <img src="/imtihon/youtube.png" alt=""> <img class="icon" src="/imtihon/youtube-play-button.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="main1">
+                <h1>Xizmatlar</h1>
+                <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget <br>
+                    sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+
+            </div>
+            <div class="main2">
+                <div class="box1"><img src="/imtihon/service.png" alt=""></div>
+                <div class="box2"><img src="/imtihon/service (1).png" alt=""></div>
+                <div class="box3"><img src="/imtihon/service (2).png" alt=""></div>
+                <div class="box4"><img src="/imtihon/service (3).png" alt=""></div>
+                <div class="box5"><img src="/imtihon/service (4).png" alt=""></div>
+            </div>
+            <div class="main3">
+
+                <div class="buyurtmaberish">Buyurtma berish</div>
+                <a href="xizmatlar.html">Xizmatlar sahifasiga o'tish</a>
+
+            </div>
+            <div class="main4">
+                <div class="m1">
+                    <h1>Biz qanday ishlaymiz?</h1>
+                    <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        <br>
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar
+                    </p>
+                </div>
+                <div class="m2">
+                    <div class="b1"><img src="/imtihon/step.png" alt=""></div>
+                    <div class="b2"><img src="/imtihon/Frame 1.png" alt=""></div>
+                    <div class="b3"><img src="/imtihon/Frame 2.png" alt=""></div>
+                    <div class="b4"><img src="/imtihon/Frame 3.png" alt=""></div>
+                    <div class="b5"><img src="/imtihon/Frame 4.png" alt=""></div>
+                </div>
+
+                <div class="tugma">Buyurtma berish</div>
+
+            </div>
+
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="fo1">
+                    <h2>Copyright 2020</h2>
+                    <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+                </div>
+                <div class="fo2">
+                    <h2>Sayt sahifalari</h2>
+                    <p>Bosh sahifa <br>
+                        Xizmatlar <br>
+                        Portfolio <br>
+                        Jamoa <br>
+                        Blog <br>
+                        Kontaktlar</p>
+                </div>
+                <div class="fo3">
+                    <h2>Biz internetda</h2>
+                    <img src="/imtihon/socials-list.png" alt="">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
